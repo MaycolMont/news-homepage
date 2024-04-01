@@ -1,0 +1,31 @@
+.main__news-container {
+    grid-area: news;
+    padding: 1.3rem;
+    background-color: var(--very-dark-blue);
+    color: white;
+}
+
+.news-container__title {
+    margin-bottom: 2rem;
+    color: var(--soft-orange);
+    font-size: 2.125em;
+    font-weight: var(--bold-weight);
+}
+
+.new__title {
+    margin-bottom: 0.65rem;
+    font-size: 1.35em;
+    font-weight: var(--bolder-weight);
+}
+.new__title:hover {
+    color: var(--soft-orange)
+}
+
+.new__description {
+    color: inherit
+}
+
+.new__line {
+    margin: 2rem 0;
+    border-bottom: 1px solid white;
+}

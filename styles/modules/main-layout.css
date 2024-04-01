@@ -1,0 +1,39 @@
+body {
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+.main {
+    margin-top: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 40.625rem) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "headline headline"
+        "news articles"
+    }
+}
+
+@media (min-width: 60.9375rem) {
+    .container {
+        max-width: 70rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        "headline headline news"
+        "articles articles articles"
+    }
+}

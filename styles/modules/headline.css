@@ -1,0 +1,54 @@
+.main__headline {
+    grid-area: headline;
+}
+
+.headline__front-page {
+    margin-bottom: 1.5rem;
+}
+
+.headline__title {
+    color: var(--very-dark-blue);
+    font-size: 2.7em;
+    font-weight: var(--bolder-weight);
+    line-height: 1.1;
+}
+
+.headline__description {
+    margin: 1.5rem 0;
+}
+
+.headline__read-more {
+    width: fit-content;
+    padding: 1rem 2rem;
+    background-color: var(--soft-red);
+    color: white;
+    font-size: 1em;
+    font-weight: var(--bold-weight);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.headline__read-more:hover {
+    background-color: var(--very-dark-blue);
+    color: white;
+}
+
+@media (min-width: 40.625rem) {
+    .headline__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem
+    }
+
+    .headline__title {
+        font-size: 3.5em;
+    }
+
+    .headline__description {
+        margin: 0;
+    }
+
+    .headline__read-more {
+        margin-top: 2.5rem;
+    }
+}
