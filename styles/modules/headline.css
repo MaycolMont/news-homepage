@@ -2,6 +2,10 @@
     grid-area: headline;
 }
 
+.headline__logo-container {
+    margin-bottom: 1.5rem;
+}
+
 .headline__front-page {
     margin-bottom: 1.5rem;
 }

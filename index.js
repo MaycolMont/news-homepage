@@ -8,4 +8,3 @@ import './styles/modules/break-news.css';
 import { mobileNav, responsiveImg } from './src/utils';
 
 mobileNav();
-responsiveImg();
