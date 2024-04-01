@@ -6,6 +6,10 @@
     background-color: inherit;
 }
 
+.header__logo {
+    height: 2rem;
+}
+
 .header__nav {
     opacity: 0;
     visibility: hidden;
@@ -53,10 +57,14 @@
         box-shadow: none;
     }
 
+    .header__logo {
+        height: 100%;
+    }
+
     .nav__links-container {
         margin: 0;
         flex-direction: row;
-        gap: 2rem
+        gap: 2.5rem
     }
 
     .mobile__close-btn {
